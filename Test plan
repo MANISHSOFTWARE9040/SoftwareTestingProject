@@ -1,0 +1,117 @@
+1. Test Plan ID
+TP-MANUAL-001
+
+2. Project Name
+VWO.com Login Module (or replace with your project name)
+
+3. Introduction
+This document outlines the test plan for manually testing the Login functionality of VWO.com. The goal is to verify that users can log in securely and effectively, ensuring all possible user scenarios are handled correctly.
+
+4. Objectives and Tasks
+Objectives:
+
+To verify login page functionality with valid and invalid inputs
+
+To ensure the system handles authentication failures securely
+
+To identify defects prior to release
+
+Tasks:
+
+Review requirements
+
+Design test cases
+
+Execute test cases manually
+
+Report and track bugs
+
+Re-test after bug fixes
+
+5. Scope
+In Scope:
+
+Functional testing of login module
+
+UI validation
+
+Error message validation
+
+Browser compatibility for login flow
+
+Out of Scope:
+
+Backend/database testing
+
+Performance or load testing
+
+Two-factor authentication (if not implemented)
+
+6. Test Strategy
+Testing Type: Manual Functional Testing
+
+Techniques Used: Black-box testing, Boundary value analysis
+
+Tools Used: MS Excel, Google Sheets, Bug tracking tool (e.g., JIRA)
+
+7. Test Deliverables
+Test Plan Document
+
+Test Cases Document
+
+Bug Report
+
+Final Test Summary Report
+
+8. Test Environment
+Web Application: VWO.com
+
+Browsers: Chrome, Firefox, Edge
+
+Devices: Desktop, Mobile
+
+Network: Standard internet connection
+
+9. Entry Criteria
+Functional requirements are finalized
+
+Application build is available
+
+Test environment is set up
+
+10. Exit Criteria
+All planned test cases executed
+
+No Critical/High bugs remain open
+
+Test Summary Report is reviewed and signed off
+
+11. Resources and Roles
+QA Engineer: Responsible for test case writing, execution, and bug reporting
+
+Test Lead: Responsible for planning, reviewing, and reporting
+
+Developer: Fix reported defects
+
+12. Schedule
+Phase	Start Date	End Date
+Test Planning	May 3, 2025	May 4, 2025
+Test Case Design	May 5, 2025	May 6, 2025
+Test Execution	May 7, 2025	May 10, 2025
+Bug Fix Verification	May 11, 2025	May 12, 2025
+Test Closure & Reporting	May 13, 2025	May 14, 2025
+
+13. Risk and Mitigation
+Risk	Mitigation
+Late delivery of the build	Communicate with dev team and adjust test schedule
+High number of UI issues	Prioritize UI testing and escalate early
+Unclear requirements	Request clarification before designing test cases
+
+14. Test Metrics
+Total Test Cases Executed
+
+Pass/Fail Rate
+
+Defect Density
+
+Defect Severity Distribution
